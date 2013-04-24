@@ -6,7 +6,7 @@ var githubhook = require('githubhook'),
 
 var thishook = githubhook(3131, servers, function (err, payload) {
     if (!err) {
-        var deploySh = require('child_process').spawn('sh', [ 'deploy.sh' ], {
+        var deploySh = require('child_process').spawn('sh', [ 'hook.sh' ], {
             cwd: process.env.PWD
         });
 
