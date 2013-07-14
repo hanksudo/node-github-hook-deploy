@@ -1,0 +1,9 @@
+{
+  "name": "node-github-hook-deploy",
+  "version": "0.0.1",
+  "description": "A demo to use github hook by NodeJS",
+  "main": "app.js",
+  "dependencies": {
+    "githubhook": "~0.4.2"
+  }
+}

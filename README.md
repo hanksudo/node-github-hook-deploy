@@ -2,9 +2,9 @@
 
 A demo to use github hook by NodeJS
 
-## Install package
+## Install dependency package
 
-	$ npm install githubhook
+	$ npm i
 	
 
 ## Progress
